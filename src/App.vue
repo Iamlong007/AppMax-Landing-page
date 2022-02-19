@@ -122,7 +122,7 @@ button:hover {
   justify-content: space-between;
 }
 .hero_cont div {
-  width: 70%;
+  width: 60%;
 }
 .hero_cont div h1 {
   width: 80%;
@@ -185,12 +185,11 @@ button:hover {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1200px) {
-  /* .hero_cont div {
-  width: 100%;
-}
+@media only screen and (max-width: 1400px) {
 .hero_cont div h1 {
-  width: 100%;}
-} */
+  width: 80%;
+  font-size: 52px;
+  
+}
 }
 </style>
