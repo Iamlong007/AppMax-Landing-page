@@ -110,7 +110,7 @@ button:hover {
 }
 .hero {
   background-image: url("~@/assets/images/bg.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .hero_cont {
