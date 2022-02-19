@@ -182,9 +182,7 @@ button:hover {
   margin-top: -120px !important;
 }
 
-
 /* Media Queries */
-
 
 @media only screen and (max-width: 1200px) {
   /* .hero_cont div {
@@ -193,7 +191,5 @@ button:hover {
 .hero_cont div h1 {
   width: 100%;}
 } */
-
-
-
+}
 </style>
