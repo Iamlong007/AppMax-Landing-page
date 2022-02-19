@@ -42,34 +42,35 @@
 
   <!-- Partners -->
   <section class="partners">
-    <img
-      src="./assets/images/1.svg"
-      alt=""
-      data-aos="zoom-in"
-      data-aos-duration="1000"
-      
-    />
-    <img
-      src="./assets/images/2.svg"
-      alt=""
-      data-aos="zoom-in"
-      data-aos-duration="1000"
-      data-aos-delay="200"
-    />
-    <img
-      src="./assets/images/3.svg"
-      alt=""
-      data-aos="zoom-in"
-      data-aos-duration="1000"
-      data-aos-delay="500"
-    />
-    <img
-      src="./assets/images/4.svg"
-      alt=""
-      data-aos="zoom-in"
-      data-aos-duration="1000"
-      data-aos-delay="700"
-    />
+    <div>
+      <img
+        src="./assets/images/1.svg"
+        alt=""
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      />
+      <img
+        src="./assets/images/2.svg"
+        alt=""
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+      />
+      <img
+        src="./assets/images/3.svg"
+        alt=""
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+      />
+      <img
+        src="./assets/images/4.svg"
+        alt=""
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="700"
+      />
+    </div>
   </section>
 </template>
 
@@ -216,12 +217,17 @@ button:hover {
 }
 
 .partners {
-  padding: 50px 152px;
+  
+}
+.partners div {
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 /* Media Queries */
 
 @media only screen and (max-width: 1700px) {
