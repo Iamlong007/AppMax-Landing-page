@@ -125,9 +125,7 @@ button:hover {
   width: 60%;
 }
 .hero_cont div h1 {
-  /* width: 90%; */
-  max-width: 80%;
-  min-width: 70%;
+  width: 80%;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -187,20 +185,31 @@ button:hover {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1760px) {
-  /* .hero_cont div {
-    width: 80%;
-  }
+@media only screen and (max-width: 1600px) {
+
   .hero_cont div h1 {
-    width: 90%;
+    width: 100% !important;
     font-size: 68px;
-    line-height: 60px;
+    line-height: 72px;
+  }
+  .left_nav{
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+.left_nav{
+  width: 60%;
+}
+  .hero_cont div h1 {
+    width: 100% !important;
+    font-size: 60px;
+    line-height: 72px;
   }
   .hero_cont div p {
-    padding-top: 15px;
-  }
-  .trial_cont {
-    width: 70% !important;
-  } */
+  width: 90%;
+}
+.trial_cont {
+  width: 70% !important;
+}
 }
 </style>
