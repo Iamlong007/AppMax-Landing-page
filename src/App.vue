@@ -217,4 +217,27 @@ button:hover {
     width: 70% !important;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .hero_cont{
+    padding-top: 100px;
+  }
+  .hero_cont div {
+    width: 65%;
+  }
+  .hero_cont div h1 {
+    width: 90% !important;
+    font-size: 48px;
+    line-height: 54px;
+  }
+  .trial_cont{
+    width: 80% !important;
+  }
+  .hero_cont img{
+    margin-top: -20px !important;
+    padding-right: 20px;
+  }
+  .left_nav {
+    width: 66%;
+  }
+}
 </style>
