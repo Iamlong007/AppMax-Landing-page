@@ -119,13 +119,15 @@ button:hover {
   padding: 200px 0;
 
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .hero_cont div {
   width: 60%;
 }
 .hero_cont div h1 {
-  width: 80%;
+  /* width: 90%; */
+  max-width: 80%;
+  min-width: 70%;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -186,7 +188,7 @@ button:hover {
 /* Media Queries */
 
 @media only screen and (max-width: 1760px) {
-  .hero_cont div {
+  /* .hero_cont div {
     width: 80%;
   }
   .hero_cont div h1 {
@@ -199,6 +201,6 @@ button:hover {
   }
   .trial_cont {
     width: 70% !important;
-  }
+  } */
 }
 </style>
