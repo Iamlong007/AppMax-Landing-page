@@ -124,7 +124,7 @@ button:hover {
   width: 60%;
 }
 .hero_cont div h1 {
-  width: 90%;
+  width: 80%;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -134,7 +134,7 @@ button:hover {
   margin: 0;
 }
 .hero_cont div p {
-  width: 80%;
+  width: 70%;
   padding-top: 30px;
   font-style: normal;
   font-weight: normal;
@@ -176,8 +176,8 @@ button:hover {
   margin-right: 6px;
 }
 .hero_cont img {
-  width: 818px;
-  height: 862px;
+ width: 40%;
+ height: auto;
   padding-right: 70px;
   margin-top: -120px !important;
 }
