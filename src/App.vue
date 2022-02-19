@@ -185,14 +185,14 @@ button:hover {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1800px) {
   .hero_cont div {
   width: 80%;
 }
 .hero_cont div h1 {
   width: 80%;
   font-size: 52px;
-    line-height: 49px;
+    line-height: 60px;
 }
 .hero_cont div p{
   padding-top: 15px;
