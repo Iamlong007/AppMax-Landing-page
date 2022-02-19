@@ -29,7 +29,14 @@
           <button class="trial_button">Start 14 Days Trial</button>
         </div>
       </div>
-      <img src="./assets/images/Appmock.svg" alt="" srcset="" data-aos="zoom-in" data-aos-duration="1000"  data-aos-delay="500"/>
+      <img
+        src="./assets/images/Appmock.svg"
+        alt=""
+        srcset=""
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+      />
     </div>
   </section>
 </template>
@@ -113,10 +120,11 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
-.hero_cont div{
-  width: 50%;
+.hero_cont div {
+  width: 60%;
 }
 .hero_cont div h1 {
+  width: 90%;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -126,6 +134,7 @@ button:hover {
   margin: 0;
 }
 .hero_cont div p {
+  width: 80%;
   padding-top: 30px;
   font-style: normal;
   font-weight: normal;
@@ -172,4 +181,17 @@ button:hover {
   padding-right: 70px;
   margin-top: -120px !important;
 }
+
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 1200px) {
+  .hero_cont div {
+  width: 70%;
+}
+}
+
+
+
 </style>
