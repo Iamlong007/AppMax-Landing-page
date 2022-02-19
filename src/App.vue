@@ -190,6 +190,8 @@ button:hover {
   .hero_cont div {
   width: 100%;
 }
+.hero_cont div h1 {
+  width: 100%;}
 }
 
 
