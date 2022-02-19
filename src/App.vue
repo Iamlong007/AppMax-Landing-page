@@ -187,12 +187,12 @@ button:hover {
 
 
 @media only screen and (max-width: 1200px) {
-  .hero_cont div {
+  /* .hero_cont div {
   width: 100%;
 }
 .hero_cont div h1 {
   width: 100%;}
-}
+} */
 
 
 
