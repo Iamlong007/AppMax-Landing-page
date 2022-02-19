@@ -188,7 +188,7 @@ button:hover {
 
 @media only screen and (max-width: 1200px) {
   .hero_cont div {
-  width: 85%;
+  width: 95%;
 }
 }
 
