@@ -113,8 +113,10 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
+.hero_cont div{
+  width: 50%;
+}
 .hero_cont div h1 {
-  width: 80%;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -124,7 +126,6 @@ button:hover {
   margin: 0;
 }
 .hero_cont div p {
-  width: 74%;
   padding-top: 30px;
   font-style: normal;
   font-weight: normal;
@@ -134,7 +135,7 @@ button:hover {
   opacity: 0.8;
 }
 .trial_cont {
-  width: 526px;
+  width: 70% !important;
   display: flex;
   background: #ffffff;
   border-radius: 5px;
