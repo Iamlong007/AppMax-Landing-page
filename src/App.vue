@@ -186,12 +186,12 @@ button:hover {
 /* Media Queries */
 
 @media only screen and (max-width: 1760px) {
-  /* .hero_cont div {
+  .hero_cont div {
     width: 80%;
   }
   .hero_cont div h1 {
-    width: 80%;
-    font-size: 62px;
+    width: 90%;
+    font-size: 68px;
     line-height: 60px;
   }
   .hero_cont div p {
@@ -199,6 +199,6 @@ button:hover {
   }
   .trial_cont {
     width: 70% !important;
-  } */
+  }
 }
 </style>
