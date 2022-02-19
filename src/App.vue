@@ -39,6 +39,38 @@
       />
     </div>
   </section>
+
+  <!-- Partners -->
+  <section class="partners">
+    <img
+      src="./assets/images/1.svg"
+      alt=""
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      data-aos-delay="500"
+    />
+    <img
+      src="./assets/images/2.svg"
+      alt=""
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      data-aos-delay="700"
+    />
+    <img
+      src="./assets/images/3.svg"
+      alt=""
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      data-aos-delay="700"
+    />
+    <img
+      src="./assets/images/4.svg"
+      alt=""
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      data-aos-delay="900"
+    />
+  </section>
 </template>
 
 <script>
@@ -183,6 +215,13 @@ button:hover {
   margin-top: -120px !important;
 }
 
+.partners {
+  padding: 100px 152px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1700px) {
@@ -218,7 +257,7 @@ button:hover {
   }
 }
 @media only screen and (max-width: 1200px) {
-  .hero_cont{
+  .hero_cont {
     padding-top: 100px;
   }
   .hero_cont div {
@@ -229,10 +268,10 @@ button:hover {
     font-size: 48px;
     line-height: 54px;
   }
-  .trial_cont{
+  .trial_cont {
     width: 80% !important;
   }
-  .hero_cont img{
+  .hero_cont img {
     margin-top: -20px !important;
     padding-right: 20px;
   }
