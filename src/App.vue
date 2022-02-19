@@ -186,30 +186,35 @@ button:hover {
 /* Media Queries */
 
 @media only screen and (max-width: 1600px) {
-
+  .hero_cont div {
+    width: 70%;
+  }
   .hero_cont div h1 {
     width: 100% !important;
     font-size: 68px;
     line-height: 72px;
   }
-  .left_nav{
+  .left_nav {
     width: 50%;
   }
 }
 @media only screen and (max-width: 1440px) {
-.left_nav{
-  width: 60%;
-}
+  .left_nav {
+    width: 60%;
+  }
+  .hero_cont div {
+    width: 80%;
+  }
   .hero_cont div h1 {
     width: 100% !important;
     font-size: 60px;
     line-height: 72px;
   }
   .hero_cont div p {
-  width: 90%;
-}
-.trial_cont {
-  width: 70% !important;
-}
+    width: 90%;
+  }
+  .trial_cont {
+    width: 70% !important;
+  }
 }
 </style>
