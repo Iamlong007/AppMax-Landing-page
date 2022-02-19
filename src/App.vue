@@ -185,7 +185,7 @@ button:hover {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1700px) {
   .hero_cont div {
     width: 70%;
   }
