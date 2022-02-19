@@ -16,19 +16,21 @@
   </nav>
   <!-- Hero -->
   <section class="hero">
-    <div>
-      <h1>Create your next mobile app landing page in minutes.</h1>
-      <p>
-        An enim nullam tempor sapien gravida donec enim ipsum porta justo
-        integer at odio velna vitae auctor integer congue magna at pretium purus
-        pretium ligula rutrum luctus risus
-      </p>
-      <div class="trial_cont">
-        <p>Enter your email address</p>
-        <button class="trial_button">Start 14 Days Trial</button>
+    <div class="hero_cont">
+      <div>
+        <h1>Create your next mobile app landing page in minutes.</h1>
+        <p>
+          An enim nullam tempor sapien gravida donec enim ipsum porta justo
+          integer at odio velna vitae auctor integer congue magna at pretium
+          purus pretium ligula rutrum luctus risus
+        </p>
+        <div class="trial_cont">
+          <p>Enter your email address</p>
+          <button class="trial_button">Start 14 Days Trial</button>
+        </div>
       </div>
+      <img src="./assets/images/Appmock.svg" alt="" srcset="" />
     </div>
-    <img src="./assets/images/Appmock.svg" alt="" srcset="">
   </section>
 </template>
 
@@ -103,13 +105,15 @@ button:hover {
   background-image: url("~@/assets/images/bg.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 1000px;
-  padding: 200px 191px;
+}
+.hero_cont {
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
   display: flex;
   justify-content: space-between;
 }
-
-.hero div h1 {
+.hero_cont div h1 {
   width: 80%;
   font-style: normal;
   font-weight: bold;
@@ -119,7 +123,7 @@ button:hover {
   color: #ffffff;
   margin: 0;
 }
-.hero div p {
+.hero_cont div p {
   width: 74%;
   padding-top: 30px;
   font-style: normal;
@@ -145,7 +149,7 @@ button:hover {
   width: auto !important;
   padding-left: 20px !important;
   padding-top: 0px !important;
-  
+
   line-height: 26px;
   color: #000b33 !important;
   opacity: 0.6 !important;
@@ -161,7 +165,7 @@ button:hover {
   cursor: pointer;
   margin-right: 6px;
 }
-.hero img{
+.hero_cont img {
   width: 818px;
   height: 862px;
   padding-right: 70px;
