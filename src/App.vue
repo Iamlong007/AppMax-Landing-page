@@ -190,7 +190,7 @@ button:hover {
     width: 65%;
   }
   .hero_cont div h1 {
-    width: 100% !important;
+    width: 90% !important;
     font-size: 68px;
     line-height: 72px;
   }
