@@ -177,28 +177,28 @@ button:hover {
   margin-right: 6px;
 }
 .hero_cont img {
- width: 40%;
- height: auto;
+  width: 40%;
+  height: auto;
   padding-right: 70px;
   margin-top: -120px !important;
 }
 
 /* Media Queries */
 
-@media only screen and (max-width: 2560px) {
-  .hero_cont div {
-  width: 80%;
-}
-.hero_cont div h1 {
-  width: 80%;
-  font-size: 52px;
+@media only screen and (max-width: 1760px) {
+  /* .hero_cont div {
+    width: 80%;
+  }
+  .hero_cont div h1 {
+    width: 80%;
+    font-size: 62px;
     line-height: 60px;
-}
-.hero_cont div p{
-  padding-top: 15px;
-}
-.trial_cont{
-  width: 70% !important;
-}
+  }
+  .hero_cont div p {
+    padding-top: 15px;
+  }
+  .trial_cont {
+    width: 70% !important;
+  } */
 }
 </style>
