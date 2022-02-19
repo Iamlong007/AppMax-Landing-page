@@ -110,18 +110,19 @@ button:hover {
 }
 .hero {
   background-image: url("~@/assets/images/bg.svg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .hero_cont {
   width: 80%;
   margin: auto;
-  padding-top: 200px;
+  padding: 200px 0;
+
   display: flex;
   justify-content: space-between;
 }
 .hero_cont div {
-  width: 60%;
+  width: 70%;
 }
 .hero_cont div h1 {
   width: 80%;
@@ -144,7 +145,7 @@ button:hover {
   opacity: 0.8;
 }
 .trial_cont {
-  width: 70% !important;
+  width: 60% !important;
   display: flex;
   background: #ffffff;
   border-radius: 5px;
