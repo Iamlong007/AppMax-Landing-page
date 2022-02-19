@@ -47,14 +47,14 @@
       alt=""
       data-aos="zoom-in"
       data-aos-duration="1000"
-      data-aos-delay="500"
+      data-aos-delay="300"
     />
     <img
       src="./assets/images/2.svg"
       alt=""
       data-aos="zoom-in"
       data-aos-duration="1000"
-      data-aos-delay="700"
+      data-aos-delay="500"
     />
     <img
       src="./assets/images/3.svg"
@@ -216,7 +216,7 @@ button:hover {
 }
 
 .partners {
-  padding: 100px 152px;
+  padding: 50px 152px;
   display: flex;
   justify-content: space-between;
   align-items: center;
