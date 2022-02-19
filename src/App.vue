@@ -29,7 +29,7 @@
           <button class="trial_button">Start 14 Days Trial</button>
         </div>
       </div>
-      <img src="./assets/images/Appmock.svg" alt="" srcset="" />
+      <img src="./assets/images/Appmock.svg" alt="" srcset="" data-aos="zoom-in" data-aos-duration="1000"  data-aos-delay="500"/>
     </div>
   </section>
 </template>
