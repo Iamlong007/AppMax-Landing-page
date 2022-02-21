@@ -82,10 +82,36 @@
       </p>
     </div>
     <div class="features_cont">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, corporis
-      beatae cupiditate eius eveniet ex possimus natus atque sit. Dignissimos
-      iure enim expedita repudiandae reprehenderit commodi eos? Eveniet,
-      consequatur optio.
+      <div class="features_card">
+        <img src="./assets/images/send.svg" alt="" />
+        <div>
+          <h2>Innovative Soluation</h2>
+          <p>
+            Fully layered dolor sit amet, consectetur adipisicing elit. Facere,
+            nobis, id expedita dolores officiis laboriosam.
+          </p>
+        </div>
+      </div>
+      <div class="features_card">
+        <img src="./assets/images/phone.svg" alt="" />
+        <div>
+          <h2>Clear Navigation</h2>
+          <p>
+            Fully layered dolor sit amet, consectetur adipisicing elit. Facere,
+            nobis, id expedita dolores officiis laboriosam.
+          </p>
+        </div>
+      </div>
+      <div class="features_card">
+        <img src="./assets/images/people.svg" alt="" />
+        <div>
+          <h2>Over 800 Clients</h2>
+          <p>
+            Fully layered dolor sit amet, consectetur adipisicing elit. Facere,
+            nobis, id expedita dolores officiis laboriosam.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -244,10 +270,13 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
+
 .features {
-  padding: 132px 192px;
+  height: 779px;
+  width: 100%;
 }
 .headline {
+  margin-top: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -272,6 +301,37 @@ button:hover {
   line-height: 26px;
   text-align: center;
   color: #000b33;
+  opacity: 0.7;
+}
+.features_cont {
+  padding-top: 150px;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+.features_card {
+  width: 20%;
+}
+.features_cont div div {
+  margin-top: 40px;
+}
+.features_cont div div h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000b33;
+}
+
+.features_cont div div p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #000b33;
+
   opacity: 0.7;
 }
 
