@@ -72,6 +72,22 @@
       />
     </div>
   </section>
+
+  <section class="features">
+    <div class="headline">
+      <h1>A simple, proven way to boost your team performance.</h1>
+      <p>
+        Fully layered dolor sit amet, consectetur Facere, nobis, id expedita
+        dolores officiis laboriosam.
+      </p>
+    </div>
+    <div class="features_cont">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, corporis
+      beatae cupiditate eius eveniet ex possimus natus atque sit. Dignissimos
+      iure enim expedita repudiandae reprehenderit commodi eos? Eveniet,
+      consequatur optio.
+    </div>
+  </section>
 </template>
 
 <script>
@@ -217,7 +233,7 @@ button:hover {
 }
 
 .partners {
-  
+  background: #ffffff;
 }
 .partners div {
   width: 80%;
@@ -228,6 +244,37 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
+.features {
+  padding: 132px 192px;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headline h1 {
+  width: 45%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #000b33;
+  margin: 0%;
+}
+
+.headline p {
+  width: 30%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #000b33;
+  opacity: 0.7;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1700px) {
