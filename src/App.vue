@@ -82,7 +82,7 @@
       </p>
     </div>
     <div class="features_cont">
-      <div class="features_card">
+      <div class="features_card" data-aos="zoom-in" data-aos-duration="1000">
         <img src="./assets/images/send.svg" alt="" />
         <div>
           <h2>Innovative Soluation</h2>
@@ -92,7 +92,7 @@
           </p>
         </div>
       </div>
-      <div class="features_card">
+      <div class="features_card" data-aos="zoom-in" data-aos-duration="1000">
         <img src="./assets/images/phone.svg" alt="" />
         <div>
           <h2>Clear Navigation</h2>
@@ -102,7 +102,7 @@
           </p>
         </div>
       </div>
-      <div class="features_card">
+      <div class="features_card" data-aos="zoom-in" data-aos-duration="1000">
         <img src="./assets/images/people.svg" alt="" />
         <div>
           <h2>Over 800 Clients</h2>
