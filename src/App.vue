@@ -73,6 +73,7 @@
     </div>
   </section>
 
+  <!-- Features -->
   <section class="features">
     <div class="headline">
       <h1>A simple, proven way to boost your team performance.</h1>
@@ -92,7 +93,12 @@
           </p>
         </div>
       </div>
-      <div class="features_card" data-aos="zoom-in" data-aos-duration="1000">
+      <div
+        class="features_card"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      >
         <img src="./assets/images/phone.svg" alt="" />
         <div>
           <h2>Clear Navigation</h2>
@@ -102,7 +108,12 @@
           </p>
         </div>
       </div>
-      <div class="features_card" data-aos="zoom-in" data-aos-duration="1000">
+      <div
+        class="features_card"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+      >
         <img src="./assets/images/people.svg" alt="" />
         <div>
           <h2>Over 800 Clients</h2>
@@ -111,6 +122,22 @@
             nobis, id expedita dolores officiis laboriosam.
           </p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download App -->
+  <section class="download_cont">
+    <div>
+      <img src="./assets/images/app1.png" alt="" />
+      <div class="download_text">
+        <h2>We develop digital strategies products and services.</h2>
+        <p>
+          Vero homero perfecto mei ut, sonet aperiam an nec. Ni nec dict altera
+          legimu. Me vita de lege ndos expet end is ad.mita aliu mi ando, haeo
+          tibi que com titure viset cut.Proin tempus elit a laoreet volut pat.
+        </p>
+        <img src="./assets/images/Buttons.png" alt="">
       </div>
     </div>
   </section>
@@ -333,6 +360,40 @@ button:hover {
   color: #000b33;
 
   opacity: 0.7;
+}
+
+.download_cont {
+  background-image: url("~@/assets/images/download_bg.png");
+  background-size: cover;
+  height: 690px;
+}
+.download_cont div {
+  display: flex;
+}
+.download_cont div img {
+  margin-top: -50px;
+}
+.download_text {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.download_text h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  margin: 0;
+}
+.download_text p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 /* Media Queries */
