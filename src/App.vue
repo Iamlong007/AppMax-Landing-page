@@ -376,6 +376,7 @@ button:hover {
 .download_text {
   width: 25%;
   display: flex;
+  height: 435px;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -394,6 +395,11 @@ button:hover {
   line-height: 26px;
   color: #ffffff;
   opacity: 0.8;
+  margin: 0;
+}
+.download_text img{
+  width: 409px;
+height: 62px;
 }
 
 /* Media Queries */
