@@ -130,14 +130,14 @@
   <section class="download">
     <div class="download_cont">
       <div><img src="./assets/images/app1.png" alt="" /></div>
-      <div>
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
         <h2>We develop digital strategies products and services.</h2>
         <p>
           Vero homero perfecto mei ut, sonet aperiam an nec. Ni nec dict altera
           legimu. Me vita de lege ndos expet end is ad.mita aliu mi ando, haeo
           tibi que com titure viset cut.Proin tempus elit a laoreet volut pat.
         </p>
-        <img src="./assets/images/Buttons.png" alt="">
+        <img src="./assets/images/Buttons.png" alt="" />
       </div>
     </div>
   </section>
@@ -378,6 +378,7 @@ button:hover {
 .download_cont :nth-child(2) {
   width: 35%;
   padding-left: 20%;
+  margin-top: 8%;
 }
 .download_cont :nth-child(2) h2 {
   font-style: normal;
@@ -386,8 +387,8 @@ button:hover {
   line-height: 58px;
 
   letter-spacing: -0.5px;
-padding: 0%;
-margin: 0%;
+  padding: 0%;
+  margin: 0%;
   color: #ffffff;
 }
 .download_cont :nth-child(2) p {
@@ -398,14 +399,12 @@ margin: 0%;
   color: #ffffff;
   padding: 0%;
   width: 100%;
+  opacity: 0.8;
+  margin-top: 10px;
 }
 .download_cont :nth-child(2) img {
   margin-top: 10%;
 }
-
-
-
-
 
 /* .download_cont div {
   display: flex;
