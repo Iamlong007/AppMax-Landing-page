@@ -141,6 +141,23 @@
       </div>
     </div>
   </section>
+
+  <!-- Starting  -->
+
+  <section class="starting">
+    <div class="starting_cont">
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+        <h2>Starting with appmax is easier than anything!</h2>
+        <p>
+          Vero homero perfecto mei ut, sonet aperiam an nec. Ni nec dict altera
+          legimu. Me vita de lege ndos expet end is ad.mita aliu mi ando, haeo
+          tibi que com titure viset cut.Proin tempus elit a laoreet volut pat.
+        </p>
+        <button>Download Now</button>
+      </div>
+      <div><img src="./assets/images/Video.png" alt="" /></div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -406,44 +423,45 @@ button:hover {
   margin-top: 10%;
 }
 
-/* .download_cont div {
+.starting_cont {
+  width: 80%;
   display: flex;
-  width: 70%;
-  margin: auto;
   justify-content: space-between;
+  padding: 200px 0px 200px;
+  padding-left: 12%;
 }
-.download_cont div img {
-  margin-top: -50px;
+.starting_cont div {
+  width: 40%;
+  margin: auto;
+  margin-left: 0%;
 }
-.download_text {
-  width: 25%;
-  display: flex;
-  height: 435px;
-  flex-direction: column;
-}
-.download_text h2 {
+.starting_cont div h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
   line-height: 58px;
   letter-spacing: -0.5px;
-  color: #ffffff;
-  width: 50%;
-  margin-bottom: 0px;
+  color: #000b33;
+  margin: 0%;
 }
-.download_text p {
+.starting_cont div p {
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-  color: #ffffff;
+  color: #000b33;
   opacity: 0.8;
-  width: 50%;
-  padding-bottom: 90px;
 }
-.download_text img{
-  width: 409px;
-height: 62px;
-} */
+.starting_cont div button {
+  background: #fd4c5c;
+  border-radius: 3px;
+  border: 0px;
+  color: white;
+  padding: 15px 42px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+}
 
 /* Media Queries */
 
