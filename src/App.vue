@@ -369,6 +369,9 @@ button:hover {
 }
 .download_cont div {
   display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
 }
 .download_cont div img {
   margin-top: -50px;
@@ -378,7 +381,6 @@ button:hover {
   display: flex;
   height: 435px;
   flex-direction: column;
-  justify-content: space-between;
 }
 .download_text h2 {
   font-style: normal;
@@ -387,7 +389,8 @@ button:hover {
   line-height: 58px;
   letter-spacing: -0.5px;
   color: #ffffff;
-  margin: 0;
+  width: 50%;
+  margin-bottom: 0px;
 }
 .download_text p {
   font-weight: normal;
@@ -395,7 +398,8 @@ button:hover {
   line-height: 26px;
   color: #ffffff;
   opacity: 0.8;
-  margin: 0;
+  width: 50%;
+  padding-bottom: 90px;
 }
 .download_text img{
   width: 409px;
