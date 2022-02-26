@@ -367,7 +367,26 @@ button:hover {
   background-size: cover;
   height: 690px;
 }
-.download_cont div {
+.download_cont div{
+  width: 80%;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.download_cont div img {
+  margin-top: -50px;
+  width: 30%;
+}
+
+.download_text{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.download_text p{
+  width: 100%;
+}
+/* .download_cont div {
   display: flex;
   width: 70%;
   margin: auto;
@@ -404,7 +423,7 @@ button:hover {
 .download_text img{
   width: 409px;
 height: 62px;
-}
+} */
 
 /* Media Queries */
 
