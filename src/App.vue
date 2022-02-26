@@ -127,10 +127,10 @@
   </section>
 
   <!-- Download App -->
-  <section class="download_cont">
-    <div>
-      <img src="./assets/images/app1.png" alt="" />
-      <div class="download_text">
+  <section class="download">
+    <div class="download_cont">
+      <div><img src="./assets/images/app1.png" alt="" /></div>
+      <div>
         <h2>We develop digital strategies products and services.</h2>
         <p>
           Vero homero perfecto mei ut, sonet aperiam an nec. Ni nec dict altera
@@ -362,30 +362,51 @@ button:hover {
   opacity: 0.7;
 }
 
-.download_cont {
+.download {
   background-image: url("~@/assets/images/download_bg.png");
   background-size: cover;
   height: 690px;
 }
-.download_cont div{
-  width: 80%;
-  
+.download_cont {
+  width: 68%;
+  margin: auto;
   display: flex;
-  justify-content: space-between;
 }
 .download_cont div img {
   margin-top: -50px;
-  width: 30%;
 }
+.download_cont :nth-child(2) {
+  width: 35%;
+  padding-left: 20%;
+}
+.download_cont :nth-child(2) h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
 
-.download_text{
-  display: flex;
-  flex-direction: column;
-  width: 40%;
+  letter-spacing: -0.5px;
+padding: 0%;
+margin: 0%;
+  color: #ffffff;
 }
-.download_text p{
+.download_cont :nth-child(2) p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  padding: 0%;
   width: 100%;
 }
+.download_cont :nth-child(2) img {
+  margin-top: 10%;
+}
+
+
+
+
+
 /* .download_cont div {
   display: flex;
   width: 70%;
