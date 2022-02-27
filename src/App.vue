@@ -163,7 +163,7 @@
   <section class="product">
     <div class="product_cont">
       <img src="./assets/images/product.png" alt="" />
-      <div  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
         <h2>Boost productivity with best creativity</h2>
         <p>
           Your well-oiled doesn’t have to down due to complex processes, or lack
@@ -200,6 +200,32 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Team -->
+  <section class="team">
+    <div class="team_cont">
+      <div class="team_head">
+        <h2>Our qualified team</h2>
+        <p>
+          Fully layered dolor sit amet, consectetur Facere, nobis, id expedita
+          dolores officiis laboriosam.
+        </p>
+      </div>
+      <div class="team_img">
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+          <img src="./assets/images/1.png" alt="" />
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+          <img src="./assets/images/2.png" alt="" />
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
+          <img src="./assets/images/3.png" alt="" />
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
+          <img src="./assets/images/4.png" alt="" />
         </div>
       </div>
     </div>
@@ -468,8 +494,9 @@ button:hover {
 .download_cont :nth-child(2) img {
   margin-top: 10%;
 }
-.starting{
-  background: rgba(41, 87, 255, 0.014)}
+.starting {
+  background: rgba(41, 87, 255, 0.014);
+}
 
 .starting_cont {
   width: 80%;
@@ -512,7 +539,7 @@ button:hover {
 }
 .product {
   background: #ffffff;
-  padding-top: 200px;
+  padding: 200px 0px 200px;
 }
 .product_cont {
   width: 80%;
@@ -540,6 +567,16 @@ button:hover {
   color: #000b33;
   opacity: 0.7;
 }
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0%;
+  letter-spacing: -0.5px;
+
+  color: #000b33;
+}
 p {
   font-style: normal;
   font-weight: normal;
@@ -553,7 +590,7 @@ p {
   margin-left: 0%;
 }
 .product_cont div div :nth-child(1) {
- padding-top: 20px;
+  padding-top: 20px;
 }
 .list_cont {
   display: flex;
@@ -569,6 +606,27 @@ p {
 }
 .list_title h4 {
   margin: 0%;
+}
+.team {
+  background: rgba(41, 87, 255, 0.014);
+  padding: 200px 0px 200px;
+}
+.team_cont {
+  width: 80%;
+  margin-left: 10%;
+  align-items: center;
+}
+.team_head{
+  width: 30% !important;
+  margin: auto;
+  text-align: center;
+}
+.team_img {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Media Queries */
