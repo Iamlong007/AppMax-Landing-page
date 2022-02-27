@@ -163,7 +163,7 @@
   <section class="product">
     <div class="product_cont">
       <img src="./assets/images/product.png" alt="" />
-      <div  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+      <div  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
         <h2>Boost productivity with best creativity</h2>
         <p>
           Your well-oiled doesn’t have to down due to complex processes, or lack
@@ -468,6 +468,8 @@ button:hover {
 .download_cont :nth-child(2) img {
   margin-top: 10%;
 }
+.starting{
+  background: rgba(41, 87, 255, 0.014)}
 
 .starting_cont {
   width: 80%;
@@ -510,6 +512,7 @@ button:hover {
 }
 .product {
   background: #ffffff;
+  padding-top: 200px;
 }
 .product_cont {
   width: 80%;
