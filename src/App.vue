@@ -158,6 +158,52 @@
       <div><img src="./assets/images/Video.png" alt="" /></div>
     </div>
   </section>
+
+  <!-- Productivity -->
+  <section class="product">
+    <div class="product_cont">
+      <img src="./assets/images/product.png" alt="" />
+      <div>
+        <h2>Boost productivity with best creativity</h2>
+        <p>
+          Your well-oiled doesn’t have to down due to complex processes, or lack
+          of time to enforce consistency.
+        </p>
+        <div>
+          <div class="list_cont">
+            <img src="./assets/images/icon1.svg" alt="" />
+            <div class="list_title">
+              <h4>Free updates forever</h4>
+              <p>
+                Your well-oiled machine doesn’t have to break down due to build
+                processes.
+              </p>
+            </div>
+          </div>
+          <div class="list_cont">
+            <img src="./assets/images/icon2.svg" alt="" />
+            <div class="list_title">
+              <h4>Responsive web design</h4>
+              <p>
+                Your well-oiled machine doesn’t have to break down due to build
+                processes.
+              </p>
+            </div>
+          </div>
+          <div class="list_cont">
+            <img src="./assets/images/icon3.svg" alt="" />
+            <div class="list_title">
+              <h4>Loaded with features</h4>
+              <p>
+                Your well-oiled machine doesn’t have to break down due to build
+                processes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -461,6 +507,65 @@ button:hover {
   font-size: 16px;
   cursor: pointer;
   margin-top: 30px;
+}
+.product {
+  background: #ffffff;
+}
+.product_cont {
+  width: 80%;
+  display: flex;
+}
+.product_cont div {
+  width: 30%;
+  margin-left: 20%;
+}
+.product_cont div h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0%;
+  letter-spacing: -0.5px;
+
+  color: #000b33;
+}
+.product_cont div p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000b33;
+  opacity: 0.7;
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000b33;
+  opacity: 0.7;
+}
+.product_cont div div {
+  width: 100%;
+  margin-left: 0%;
+}
+.product_cont div div :nth-child(1) {
+ padding-top: 20px;
+}
+.list_cont {
+  display: flex;
+  padding-top: 14px;
+}
+.list_cont img {
+  margin: 0%;
+  width: 46.39px;
+  height: 48px;
+}
+.list_title {
+  padding-left: 30px;
+}
+.list_title h4 {
+  margin: 0%;
 }
 
 /* Media Queries */
