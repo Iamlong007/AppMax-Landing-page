@@ -162,8 +162,11 @@
   <!-- Productivity -->
   <section class="product">
     <div class="product_cont">
-      <img src="./assets/images/product.png" alt="" />
-      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
+      <div>
+<img src="./assets/images/product.png" alt="" />
+      </div>
+      
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900" class="product_cont2">
         <h2>Boost productivity with best creativity</h2>
         <p>
           Your well-oiled doesn’t have to down due to complex processes, or lack
@@ -221,7 +224,7 @@
         <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
           <img src="./assets/images/2.png" alt="" />
         </div>
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="7 00">
           <img src="./assets/images/3.png" alt="" />
         </div>
         <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
@@ -544,10 +547,11 @@ button:hover {
 .product_cont {
   width: 80%;
   display: flex;
+  justify-content: space-between;
 }
-.product_cont div {
+.product_cont2 {
   width: 30%;
-  margin-left: 20%;
+  
 }
 .product_cont div h2 {
   font-style: normal;
