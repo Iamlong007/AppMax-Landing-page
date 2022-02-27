@@ -163,7 +163,7 @@
   <section class="product">
     <div class="product_cont">
       <img src="./assets/images/product.png" alt="" />
-      <div>
+      <div  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
         <h2>Boost productivity with best creativity</h2>
         <p>
           Your well-oiled doesn’t have to down due to complex processes, or lack
